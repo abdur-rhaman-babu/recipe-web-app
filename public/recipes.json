@@ -1,6 +1,6 @@
 [
     {
-      "recipe_img": "https://example.com/images/chicken_basil.jpg",
+      "recipe_img": "https://i.postimg.cc/0ywz4PvR/image1.jpg",
       "recipe_id": "r1",
       "name": "Stir-Fried Chicken with Basil",
       "short_description": "A savory stir-fry dish featuring chicken and fresh basil with soy sauce.",
@@ -17,7 +17,7 @@
       "calories": 350
     },
     {
-      "recipe_img": "https://example.com/images/spaghetti_meatballs.jpg",
+      "recipe_img": "https://i.postimg.cc/3wQk5Vry/image2.jpg",
       "recipe_id": "r2",
       "name": "Spaghetti with Meatballs",
       "short_description": "Classic Italian spaghetti served with homemade meatballs and marinara sauce.",
@@ -34,7 +34,7 @@
       "calories": 600
     },
     {
-      "recipe_img": "https://example.com/images/pad_thai.jpg",
+      "recipe_img": "https://i.postimg.cc/mr3tbjhm/image3.jpg",
       "recipe_id": "r3",
       "name": "Pad Thai",
       "short_description": "A popular Thai street food made with rice noodles, shrimp, and a tamarind-based sauce.",
@@ -51,7 +51,7 @@
       "calories": 450
     },
     {
-      "recipe_img": "https://example.com/images/beef_tacos.jpg",
+      "recipe_img": "https://i.postimg.cc/RFMqqtH4/image4.jpg",
       "recipe_id": "r4",
       "name": "Beef Tacos",
       "short_description": "Soft tortillas filled with seasoned beef, lettuce, and cheese.",
@@ -68,7 +68,7 @@
       "calories": 500
     },
     {
-      "recipe_img": "https://example.com/images/caesar_salad.jpg",
+      "recipe_img": "https://i.postimg.cc/ydvxRNm9/image5.jpg",
       "recipe_id": "r5",
       "name": "Caesar Salad",
       "short_description": "A fresh and crisp salad topped with Caesar dressing, croutons, and parmesan.",
@@ -84,7 +84,7 @@
       "calories": 200
     },
     {
-      "recipe_img": "https://example.com/images/vegetable_curry.jpg",
+      "recipe_img": "https://i.postimg.cc/qqqRxdwF/image6.jpg",
       "recipe_id": "r6",
       "name": "Vegetable Curry",
       "short_description": "A rich and aromatic curry with a variety of fresh vegetables.",
@@ -101,7 +101,7 @@
       "calories": 400
     },
     {
-      "recipe_img": "https://example.com/images/chocolate_cake.jpg",
+      "recipe_img": "https://i.postimg.cc/6qPQH11p/image7.jpg",
       "recipe_id": "r7",
       "name": "Chocolate Cake",
       "short_description": "A moist and rich chocolate cake with a creamy chocolate frosting.",
@@ -118,7 +118,7 @@
       "calories": 700
     },
     {
-      "recipe_img": "https://example.com/images/chicken_curry.jpg",
+      "recipe_img": "https://i.postimg.cc/WpYtbhbc/image8.jpg",
       "recipe_id": "r8",
       "name": "Chicken Curry",
       "short_description": "A flavorful and spicy chicken curry cooked in a coconut milk sauce.",
@@ -135,7 +135,7 @@
       "calories": 550
     },
     {
-      "recipe_img": "https://example.com/images/sushi_roll.jpg",
+      "recipe_img": "https://i.postimg.cc/QxBCBhH9/image9.jpg",
       "recipe_id": "r9",
       "name": "Sushi Roll",
       "short_description": "Traditional Japanese sushi rolls with nori, rice, and fresh fish.",
@@ -152,7 +152,7 @@
       "calories": 300
     },
     {
-      "recipe_img": "https://example.com/images/pancakes.jpg",
+      "recipe_img": "https://i.postimg.cc/PrBxY9w6/image10.jpg",
       "recipe_id": "r10",
       "name": "Fluffy Pancakes",
       "short_description": "Soft and fluffy pancakes perfect for a delicious breakfast.",

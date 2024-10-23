@@ -1,7 +1,7 @@
 import background from '../../assets/image/banner.jpg'
 const Banner = () => {
     return (
-        <div className="relative mt-16 bg-cover bg-center flex flex-col gap-4 justify-center text-center" style={{backgroundImage:`url(${background})`}}>
+        <div className="relative -z-40 mt-16 bg-cover bg-center flex flex-col gap-4 justify-center text-center" style={{backgroundImage:`url(${background})`}}>
             <div className="absolute inset-0 bg-black opacity-50"></div>
             <div className='relative z-10 w-2/3 mx-auto'>
             <h1 className='text-6xl font-bold text-center text-white mt-16'>Discover an exceptional cooking class tailored for you!</h1>
