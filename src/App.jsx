@@ -22,7 +22,7 @@ const App = () => {
         <Banner/>
      
         <div>
-        <div className="w-2/3 mx-auto text-center my-10">
+        <div className="w-6/12 mx-auto text-center my-10">
         <h1 className="font-bold text-3xl mb-4">Our Recipes</h1>
         <p className="text-xl text-slate-500 mb-10">
           Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus
@@ -30,7 +30,7 @@ const App = () => {
           elementum mauris aenean neque.
         </p>
       </div>
-        <div className="max-w-7xl mx-auto md:flex justify-center gap-10">
+        <div className="max-w-7xl mx-auto md:flex justify-center gap-5 my-10">
             <Recipes  handleBookmark = {handleBookmark}/>
             <Bookmarks bookmarks = {bookmarks}/>
         </div>
