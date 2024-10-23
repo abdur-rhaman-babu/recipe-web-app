@@ -13,7 +13,7 @@
         "1 tbsp fish sauce",
         "1 tsp sugar"
       ],
-      "preparing_time": "25 minutes",
+      "preparing_time": 25,
       "calories": 350
     },
     {
@@ -30,7 +30,7 @@
         "50 g parmesan cheese",
         "1 tbsp olive oil"
       ],
-      "preparing_time": "45 minutes",
+      "preparing_time": 45,
       "calories": 600
     },
     {
@@ -47,7 +47,7 @@
         "2 tbsp fish sauce",
         "1 tbsp sugar"
       ],
-      "preparing_time": "30 minutes",
+      "preparing_time": 30,
       "calories": 450
     },
     {
@@ -64,7 +64,7 @@
         "1 tsp chili powder",
         "2 tbsp sour cream"
       ],
-      "preparing_time": "20 minutes",
+      "preparing_time": 20,
       "calories": 500
     },
     {
@@ -80,7 +80,7 @@
         "1 clove garlic",
         "1 tsp lemon juice"
       ],
-      "preparing_time": "15 minutes",
+      "preparing_time": 15,
       "calories": 200
     },
     {
@@ -97,7 +97,7 @@
         "2 tbsp curry powder",
         "1 tbsp ginger"
       ],
-      "preparing_time": "40 minutes",
+      "preparing_time": 40,
       "calories": 400
     },
     {
@@ -114,7 +114,7 @@
         "200 ml milk",
         "1 tsp baking powder"
       ],
-      "preparing_time": "1 hour",
+      "preparing_time": 60,
       "calories": 700
     },
     {
@@ -131,7 +131,7 @@
         "1 tbsp ginger",
         "1 tsp cumin"
       ],
-      "preparing_time": "45 minutes",
+      "preparing_time": 45,
       "calories": 550
     },
     {
@@ -148,7 +148,7 @@
         "1 tbsp soy sauce",
         "1 tsp wasabi"
       ],
-      "preparing_time": "1 hour",
+      "preparing_time": 60,
       "calories": 300
     },
     {
@@ -165,7 +165,7 @@
         "2 tbsp sugar",
         "1 tsp baking powder"
       ],
-      "preparing_time": "20 minutes",
+      "preparing_time": 20,
       "calories": 350
     }
   ]
