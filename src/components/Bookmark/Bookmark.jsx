@@ -1,7 +1,8 @@
 import PropTypes from "prop-types";
 
-const Bookmark = ({ bookmark, index, handleCurrentCooking }) => {
-  const { name, preparing_time, calories } = bookmark;
+const Bookmark = ({ bookmark, index, handleCurrentCooking}) => {
+  const { name, preparing_time, calories, recipe_id } = bookmark;
+//   console.log(recipe_id)
   return (
 
       <div className="mt-4 flex gap-4">
@@ -9,7 +10,7 @@ const Bookmark = ({ bookmark, index, handleCurrentCooking }) => {
         <p>{name}</p>
         <p>{preparing_time} minutes</p>
         <p>{calories} calories</p>
-        <button onClick={()=>handleCurrentCooking(bookmark)} className="h-full py-2 px-6 bg-green-400 rounded-badge font-bold">
+        <button onClick={()=>handleCurrentCooking(bookmark, recipe_id,preparing_time,calories)} className="h-full py-2 px-6 bg-green-400 rounded-badge font-bold">
           preparing
         </button>
       </div>

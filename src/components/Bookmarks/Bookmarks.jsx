@@ -3,20 +3,23 @@ import Bookmark from "../Bookmark/Bookmark";
 import Cooks from "../Cooks/Cooks";
 import { useState } from "react";
 
-const Bookmarks = ({ bookmarks }) => {
+const Bookmarks = ({ bookmarks, setBookmarks }) => {
   const [cooks, setCooks] = useState([]);
+  const [preparingTime, setPreparingTime] = useState(0)
+  const [calories, setCalories] = useState(0)
 
-
-  const handleCurrentCooking = (bookmark) => {
+  const handleCurrentCooking = (bookmark,id,time,calorie) => {
     const newCooks = [...cooks, bookmark];
-    if(cooks.indexOf(bookmark) === -1){
-        setCooks(newCooks);
-    }else{
-        alert('already exsit')
-    }
+    const remaining = bookmarks.filter((bookmark)=> bookmark.recipe_id !== id)
+    const newPreparingTime = preparingTime + time;
+    const newCalories = calories + calorie;
+    setCalories(newCalories)
+    setPreparingTime(newPreparingTime)
+    setCooks(newCooks);
+    setBookmarks(remaining)
+
   };
 
-  //   console.log(bookmarks);
   return (
     <div className="w-5/12 border-2 border-green-300 p-5 rounded-lg">
       <div>
@@ -44,9 +47,11 @@ const Bookmarks = ({ bookmarks }) => {
         </div>
       </div>
       <div>
-        
         <Cooks cooks = {cooks}/>
-
+      </div>
+      <div className="my-5">
+            <h1 className="text-xl font-bold">Total Time: {preparingTime} minutes</h1>
+            <h1 className="text-xl font-bold">Total calories: {calories} calories</h1>
       </div>
     </div>
   );
@@ -54,5 +59,6 @@ const Bookmarks = ({ bookmarks }) => {
 
 Bookmarks.propTypes = {
   bookmarks: PropTypes.array.isRequired,
+  setBookmarks: PropTypes.func.isRequired
 };
 export default Bookmarks;

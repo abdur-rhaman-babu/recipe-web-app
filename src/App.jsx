@@ -6,7 +6,7 @@ import Recipes from "./components/Recipes/Recipes";
 
 const App = () => {
   const [bookmarks, setBookmarks] = useState([]);
-
+ 
   const handleBookmark = (recipe) => {
     const newBookmark = [...bookmarks, recipe];
     if ( bookmarks.indexOf(recipe) === -1 ){
@@ -15,6 +15,8 @@ const App = () => {
       alert('already exsist')
     }
   };
+
+ 
 
   return (
     <div>
@@ -32,7 +34,7 @@ const App = () => {
       </div>
         <div className="max-w-7xl mx-auto md:flex justify-center gap-5 my-10">
             <Recipes  handleBookmark = {handleBookmark}/>
-            <Bookmarks bookmarks = {bookmarks}/>
+            <Bookmarks bookmarks = {bookmarks} setBookmarks = {setBookmarks}/>
         </div>
         </div>
     </div>

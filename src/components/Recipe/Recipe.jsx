@@ -10,6 +10,7 @@ const Recipe = ({ recipe, handleBookmark }) => {
     ingredients,
     preparing_time,
     calories,
+    recipe_id
   } = recipe;
 
   return (
@@ -39,9 +40,10 @@ const Recipe = ({ recipe, handleBookmark }) => {
           </div>
         </div>
        <div className="text-left w-full">
-          <button onClick={()=>handleBookmark(recipe)} className='py-3 px-8 bg-green-400 rounded-badge font-bold'>
+          <button onClick={()=>handleBookmark(recipe, recipe_id)} className='py-3 px-8 bg-green-400 rounded-badge font-bold'>
             Want to cook
           </button>
+          {/* <button onClick={()=>handledRemoveItem(recipe_id)}>Delete</button> */}
        </div>
       </div>
     </div>
