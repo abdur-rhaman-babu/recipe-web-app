@@ -3,7 +3,7 @@ import { FaUserCircle } from "react-icons/fa";
 const Header = () => {
   return (
     <nav className="shadow-lg bg-base-100 fixed left-0 top-0 right-0">
-      <div className="navbar container mx-auto px-16">
+      <div className="navbar container mx-auto px-5 md:px-16">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
